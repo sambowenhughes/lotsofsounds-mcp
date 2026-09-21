@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sambowenhughes/lotsofsounds-mcp",
+  "title": "Lots of Sounds",
+  "description": "CC0 sound effects API for AI agents — search, preview, and download via MCP.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.lotsofsounds.com/docs/mcp",
+  "repository": {
+    "url": "https://github.com/sambowenhughes/lotsofsounds-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lotsofsounds.com/mcp"
+    }
+  ]
+}
